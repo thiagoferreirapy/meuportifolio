@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio Thiago Ferreira</title>
+</head>
+<body>
+    <main>
+        <section class="menu_bar" id="principal">
+            <div class="informacao_principal">
+                <h1>THIAGO SILVA FERREIRA</h1>
+                <p>Sempre apaixonado pela tecnologia, comecei meus conhecimentos pela programação no começo de 2022, influenciado pela IMERSÃO DEV da alura. Iniciei o curso Análise e Desenvolvimento de Sistemas na ESTÁCIO. <br>Meu foco hoje em dia é ser Full Stack, assim estou sempre focado em adquirir conhecimentos para crescer profissionalmente.</p>
+                <input type="button" value="VER MAIS" id="btn_ver_mais" onclick="verMais()">
+                <input type="button" value="VER MENOS" id="btn_ver_menos" onclick="verMenos()">
+            </div>
+        </section>
+        <section id="container_projetos">
+            <h2>MEUS PROJETOS</h2>
+            <div class="projetos">
+                <div class="container_videos">
+                    <h3>PROJETO FRONT-END</h3>
+                    <p>Site desenvolvido para um estúdio de maquiagem (STÚDIO RAMOSS).</p>
+                    <video width="550" controls>
+                        <source src="2023-01-25 15-46-21_Trim.mp4" type="video/mp4">
+                        
+                    </video>
+                    <a href="https://thiago1f.github.io/studio-ramos/index.html" target="_blank">Veja o Projeto Online</a>
+                    <a href="https://github.com/THIAGO1F/studio-ramos">Link do Projeto</a>
+                </div>
+                <div class="container_videos">
+                    <h3>PROJETO FRONT-END</h3>
+                    <p>Site desenvolvido com colegas, loja de tênis online.</p>
+                    <video width="550" controls>
+                        <source src="toly video.mp4" type="video/mp4">
+                        
+                    </video>
+                    <a href="https://thiago1f.github.io/Loja-online-trabalho-Desenvolvimento-WEb/index.html" target="_blank">Veja o Projeto Online</a>
+                    <a href="https://github.com/THIAGO1F/Loja-online-trabalho-Desenvolvimento-WEb">Link do Projeto</a>
+                </div>
+                
+               
+                
+                
+               
+
+            </div>
+            <div class="projetos">
+                <div class="container_videos">
+                    <h3>PROJETO FRONT-END</h3>
+                    <p>Recriação perfeita do ambiente virtual CITRIX WORKSPACE</p>
+                    <video width="550" controls>
+                        <source src="citrix video.mp4" type="video/mp4">
+                        
+                    </video>
+                    <a href="https://thiago1f.github.io/recriando-citrix/" target="_blank">Veja o Projeto Online</a>
+                    <a href="https://github.com/THIAGO1F/recriando-citrix">Link do Projeto</a>
+                </div>
+                <div class="container_videos">
+                    <h3>PROJETO BACK-END</h3>
+                    <p>Desenvolvi minha própria assistente virtual chamada LARA. </p>
+                    <video width="550" controls>
+                        <source src="lara.mp4" type="video/mp4">
+                        
+                    </video>
+                    
+                    <a href="https://github.com/THIAGO1F/ASSISTENTE-VIRTUAL-EM-PYTHON/blob/main/assistente.py">Link do Projeto</a>
+                </div>
+                
+            
+            </div>
+
+            <div class="projetos">
+                <div class="container_videos">
+                    <h3>PROJETO BACK-END</h3>
+                    <p>Desenvolvi meu gerador de senhas particular, cria, salva e muito mais.</p>
+                    <video width="550" controls>
+                        <source src="gerador de senha video.mp4" type="video/mp4">
+                        
+                    </video>
+                    
+                    <a href="https://github.com/THIAGO1F/Executavel-gerador-de-senhas">Link do Projeto</a>
+                </div>
+                <div class="container_videos">
+                    <h3>PROJETO BACK-END</h3>
+                    <p>Criei um gerador de Qrcode e Código de Barras.</p>
+                    <video width="550" controls>
+                        <source src="qrcode video.mp4" type="video/mp4">
+                        
+                    </video>
+                    
+                    <a href="https://github.com/THIAGO1F/web-scraping">Link do Projeto</a>
+                </div>
+                
+            
+            </div>
+            <h2>CONTATOS</h2>
+            <div class="contatos">
+                <a href="https://www.linkedin.com/in/thiago-ferreirapy" target="_blank" title="linedin"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/THIAGO1F" target="_blank" title="Git Hub"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:tf938383@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="arquivos/curriculo ti.pdf" download="curriculo ti.pdf" title="Download CV"><i class="fa-solid fa-file"></i></a>
+                
+
+            </div>
+            <h2>CONHECIMENTOS</h2>
+            <div class="conhecimentos">
+                <div><i id="html" title="HTML" class="fa-brands fa-html5"></i></div>
+                <div><i id="css" title="CSS" class="fa-brands fa-css3-alt"></i></div>
+                <div><i id="js" title="Java Script" class="fa-brands fa-js"></i></div>
+
+            </div>
+            <div class="conhecimentos">
+                <div><i id="python" title="Python" class="fa-brands fa-python"></i></div>
+                <div><i id="mysql" title="MYSQL" class="fa-solid fa-database"></i></div>
+
+            </div>
+        </section>
+        
+        
+        
+        
+    </main>
+</body>
+<script src="https://kit.fontawesome.com/dc37c7fe1c.js" crossorigin="anonymous"></script>
+<script>
+    function verMais(){
+       document.getElementById('container_projetos').style.display = 'flex'
+       document.getElementById('btn_ver_menos').style.display = 'block'
+       document.getElementById('btn_ver_mais').style.display = 'none'
+       document.getElementById('principal').style.height = '90vh'
+        
+    }
+    function verMenos(){
+       document.getElementById('container_projetos').style.display = 'none'
+       document.getElementById('btn_ver_menos').style.display = 'none'
+       document.getElementById('btn_ver_mais').style.display = 'block'
+       document.getElementById('principal').style.height = '100vh'
+        
+    }
+</script>
+</html>
