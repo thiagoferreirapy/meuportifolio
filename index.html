@@ -5,74 +5,288 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <title>Portfólio Thiago Ferreira</title>
 </head>
 <body>
+    <header>
+        <div class="contentIcons">
+            <a href="https://github.com/thiagoferreirapy" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/thiago-ferreirapy/" target="_blank"><i class="bi bi-linkedin" ></i></a>
+            <a href="https://web.whatsapp.com/send?phone=5561981682736" target="_blank"><i class="bi bi-whatsapp"></i></a>
+            <a href="mailto:tf938383@gmail.com"><i class="bi bi-envelope-open-fill"></i></a>
+        </div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#skills">habilidades</a>
+            <a href="#contato">Contato</a>
+            
+        </nav>
+    </header>
     <main>
-        <section class="menu_bar" id="principal">
+        <section class="pagina_principal" id="home">
             <div class="informacao_principal">
-                <h1>THIAGO SILVA FERREIRA teste</h1>
-                <p>Sempre apaixonado pela tecnologia, comecei meus conhecimentos pela programação no começo de 2022, influenciado pela IMERSÃO DEV da alura. Iniciei o curso Análise e Desenvolvimento de Sistemas na ESTÁCIO. <br>Meu foco hoje em dia é ser Full Stack, assim estou sempre focado em adquirir conhecimentos para crescer profissionalmente.</p>
-                <input type="button" value="VER MAIS" id="btn_ver_mais" onclick="verMais()">
-                <input type="button" value="VER MENOS" id="btn_ver_menos" onclick="verMenos()">
+                <span>Olá, eu sou</span>
+                <h1 id="palavras">THIAGO SILVA FERREIRA</h1>
+                <p>Olá, sou um desenvolvedor back end com um sonho de me tornar Full Stack! <br> Sempre fui apaixonado por tecnólogia e iso se intensificou quando descobri o que era programação. E meu primeiro contato foi com a linguagem Python e que é a linguagem que domino e uso até hoje.</p>
+                
             </div>
+            <div class="containerIMG">
+                <div class="spiner"></div>
+                <div class="contentImg">
+                    <img src="img/eu.jpeg" alt="">
+                </div>
+            </div>
+            
         </section>
-        <section id="container_projetos">
-            <h2>MEUS PROJETOS</h2>
-            <div class="projetos">
-                <div class="container_videos">
-                    <h3>PROJETO FRONT-END</h3>
-                    <p>Site desenvolvido para um estúdio de maquiagem (STÚDIO RAMOSS).</p>
-                    <video width="550" controls>
-                        <source src="2023-01-25 15-46-21_Trim.mp4" type="video/mp4">
-                        
-                    </video>
-                    <a href="https://thiago1f.github.io/studio-ramos/index.html" target="_blank">Veja o Projeto Online</a>
-                    <a href="https://github.com/THIAGO1F/studio-ramos">Link do Projeto</a>
-                </div>
-                <div class="container_videos">
-                    <h3>PROJETO FRONT-END</h3>
-                    <p>Site desenvolvido com colegas, loja de tênis online.</p>
-                    <video width="550" controls>
-                        <source src="toly video.mp4" type="video/mp4">
-                        
-                    </video>
-                    <a href="https://thiago1f.github.io/Loja-online-trabalho-Desenvolvimento-WEb/index.html" target="_blank">Veja o Projeto Online</a>
-                    <a href="https://github.com/THIAGO1F/Loja-online-trabalho-Desenvolvimento-WEb">Link do Projeto</a>
-                </div>
-                
-               
-                
-                
-               
+        <div class="lines">
+            <div class="pontosLine"></div>
+            <div class="pontosLine"></div>
+            <div class="pontosLine"></div>
+            <div class="line"></div>
+            <div class="pontosLine"></div>
+            <div class="pontosLine"></div>
+            <div class="pontosLine"></div>
+        </div>
+        <section class="sobre" id="sobre">
+            <div class="title">
+                <h2>SOBRE MIM</h2>
 
             </div>
-            <div class="projetos">
-                <div class="container_videos">
-                    <h3>PROJETO FRONT-END</h3>
-                    <p>Recriação perfeita do ambiente virtual CITRIX WORKSPACE</p>
-                    <video width="550" controls>
-                        <source src="citrix video.mp4" type="video/mp4">
-                        
-                    </video>
-                    <a href="https://thiago1f.github.io/recriando-citrix/" target="_blank">Veja o Projeto Online</a>
-                    <a href="https://github.com/THIAGO1F/recriando-citrix">Link do Projeto</a>
-                </div>
-                <div class="container_videos">
-                    <h3>PROJETO BACK-END</h3>
-                    <p>Desenvolvi minha própria assistente virtual chamada LARA. </p>
-                    <video width="550" controls>
-                        <source src="lara.mp4" type="video/mp4">
-                        
-                    </video>
+            <div class="containerSobre">
+                <div class="container_img">
+                    <div class="img_sobre">
+                        <img src="img/eu.jpeg" alt="">
+                    </div>
                     
-                    <a href="https://github.com/THIAGO1F/ASSISTENTE-VIRTUAL-EM-PYTHON/blob/main/assistente.py">Link do Projeto</a>
                 </div>
+                <div class="content_text">
+                    
+                    <p>Olá, quer saber como e por que amo a tecnólogia?
+                        <br>
+                        Bom a muito tempo atrás não fazia ideia do que era ser um programador, o meu único cntato com tecnólogia era atravéiste de um curso de informática básica e diferente dos dias de hoje falar sobre a área de TI era coisa competamente dificil.
+                        Poucos tinham esse contato. Bom claro que como qualquer adolecente eu gostava de jogos e desafios e sim, eu hackeava todos os meus jogos, não como um hacker proficional, mas posso dizer que me sentia poderoso fazendo aquilo ;). Em fim anos se passaram e 
+                        há 1 ano atrás iniciei minha faculdade de Análise e Desenvolvimento de sistemas e então meus conhecimentos só aumentam, claro que tive que passar por criticas, dias dificéis apenas por escolher essa área de especialização. Mas pra quem ama a profição criticas nenhuma nos deixa desistir.
+                        Iniciei curso de python, JavaScript, Django, Banco de Dados, Html e Css e toda essa divisão me fez amar os dois "lados da moeda" (Front-end e Back-end). E sim meu sonho e minha meta é me tornar um desenvolvedor Full-stack.
+                        <br>
+                        ESSE SOU EU, UM APAIXONADO POR TECNÓLOGIA E INOVAÇÃO!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div class="lines">
+            <div class="pontosLine"></div>
+            <div class="pontosLine"></div>
+            <div class="pontosLine"></div>
+            <div class="line"></div>
+            <div class="pontosLine"></div>
+            <div class="pontosLine"></div>
+            <div class="pontosLine"></div>
+        </div>
+        <section class="container_projetos" id="projetos">
+            
+            <div class="title">
+                <h2>MEUS PROJETOS</h2>
+                <div class="escolhasProjetos">
+                    <button id="frontEnd" class="front" onclick="frontEnd()">Front-end</button>
+                    <button id="backEnd" onclick="backEnd()">Back-end</button>
+                    <button id="fullStack" onclick="fullStack()">Full-stack</button>
+                </div>
+            </div>
+            <div class="projetos" id="divFrontEnd" >
+                <div class="container_videos">
+                    <div class="contentTitleVideo">
+                        <p>Site desenvolvido para um estúdio de maquiagem (STÚDIO RAMOSS).</p>
+                        <div class="contentMais">
+                            <button type="button" class="btn btn-dark p-2" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-list"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://thiago1f.github.io/studio-ramos/index.html" target="_blank"><i class="bi bi-globe"></i> Projeto Online</a></li>
+                                <li><a class="dropdown-item" href="https://github.com/THIAGO1F/studio-ramos"><i class="bi bi-github"></i> Link do Projeto</a></li>
+                                <li><a class="dropdown-item" download="" href="2023-01-25 15-46-21_Trim.mp4"><i class="bi bi-arrow-down"></i>Faça download</a></li>
+                            </ul>
+                            <!-- <button><i class="bi bi-list"></i></button> -->
+                        </div>
+                    </div>
+                    <div class="contentVideo">
+                        <video width="550" controls>
+                            <source src="2023-01-25 15-46-21_Trim.mp4" type="video/mp4">
+                            
+                        </video>
+                    </div>
+                    
+                    
+                    
+                </div>
+                <div class="container_videos">
+                    <div class="contentTitleVideo">
+                        <p>Site desenvolvido com colegas, loja de tênis online.</p>
+                        <div class="contentMais">
+                            <button type="button" class="btn btn-dark p-2" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-list"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://thiago1f.github.io/Loja-online-trabalho-Desenvolvimento-WEb/index.html" target="_blank"><i class="bi bi-globe"></i> Projeto Online</a></li>
+                                <li><a class="dropdown-item" href="https://github.com/THIAGO1F/Loja-online-trabalho-Desenvolvimento-WEb"><i class="bi bi-github"></i> Link do Projeto</a></li>
+                                <li><a class="dropdown-item" download="" href="toly video.mp4"><i class="bi bi-arrow-down"></i>Faça download</a></li>
+                            </ul>
+                            <!-- <button><i class="bi bi-list"></i></button> -->
+                        </div>
+                    </div>
+                    <div class="contentVideo">
+                        <video width="550" controls>
+                            <source src="toly video.mp4" type="video/mp4">
+                            
+                        </video>
+                    </div>
+  
+                    
+                </div>
+                
+
+            
+                <div class="container_videos">
+                    <div class="contentTitleVideo">
+                        <p>Recriação perfeita do ambiente virtual CITRIX WORKSPACE</p>
+                        <div class="contentMais">
+                            <button type="button" class="btn btn-dark p-2" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-list"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://thiago1f.github.io/recriando-citrix/" target="_blank"><i class="bi bi-globe"></i> Projeto Online</a></li>
+                                <li><a class="dropdown-item" href="https://github.com/THIAGO1F/recriando-citrix"><i class="bi bi-github"></i> Link do Projeto</a></li>
+                                <li><a class="dropdown-item" download="" href="citrix video.mp4"><i class="bi bi-arrow-down"></i>Faça download</a></li>
+                            </ul>
+                            <!-- <button><i class="bi bi-list"></i></button> -->
+                        </div>
+                    </div>
+                    <div class="contentVideo">
+                        <video width="550" controls>
+                            <source src="citrix video.mp4" type="video/mp4">
+                            
+                        </video>
+                    </div>
+
+                    
+                   
+                </div>
+                
                 
             
             </div>
 
-            <div class="projetos">
+            <div class="projetos" id="divBackEnd" style="display: none;">
+                <div class="container_videos">
+                    <div class="contentTitleVideo">
+                        <p>Desenvolvi minha própria assistente virtual chamada LARA. </p>
+                        <div class="contentMais">
+                            <button type="button" class="btn btn-dark p-2" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-list"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                
+                                <li><a class="dropdown-item" href="https://github.com/THIAGO1F/ASSISTENTE-VIRTUAL-EM-PYTHON/blob/main/assistente.py"><i class="bi bi-github"></i> Link do Projeto</a></li>
+                                <li><a class="dropdown-item" download="" href="citrix video.mp4"><i class="bi bi-arrow-down"></i>Faça download</a></li>
+                            </ul>
+                            <!-- <button><i class="bi bi-list"></i></button> -->
+                        </div>
+                    </div>
+                    <div class="contentVideo">
+                        <video width="550" controls>
+                            <source src="lara.mp4" type="video/mp4">
+                            
+                        </video>
+                    </div>
+
+                    
+                </div>
+
+                <div class="container_videos">
+                    <div class="contentTitleVideo">
+                        <p>Desenvolvi meu gerador de senhas particular, cria, salva e muito mais.</p>
+                        <div class="contentMais">
+                            <button type="button" class="btn btn-dark p-2" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-list"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                
+                                <li><a class="dropdown-item" href="https://github.com/THIAGO1F/Executavel-gerador-de-senhas"><i class="bi bi-github"></i> Link do Projeto</a></li>
+                                <li><a class="dropdown-item" download="" href="citrix video.mp4"><i class="bi bi-arrow-down"></i>Faça download</a></li>
+                            </ul>
+                            <!-- <button><i class="bi bi-list"></i></button> -->
+                        </div>
+                    </div>
+                    <div class="contentVideo">
+                        <video width="550" controls>
+                            <source src="gerador de senha video.mp4" type="video/mp4">
+                            
+                        </video>
+                    </div>
+
+                    
+                </div>
+                
+
+                <div class="container_videos">
+                    <div class="contentTitleVideo">
+                        <p>Criei um gerador de Qrcode e Código de Barras.</p>
+                        <div class="contentMais">
+                            <button type="button" class="btn btn-dark p-2" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-list"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                
+                                <li><a class="dropdown-item" href="https://github.com/THIAGO1F/web-scraping"><i class="bi bi-github"></i> Link do Projeto</a></li>
+                                <li><a class="dropdown-item" download="" href="citrix video.mp4"><i class="bi bi-arrow-down"></i>Faça download</a></li>
+                            </ul>
+                            <!-- <button><i class="bi bi-list"></i></button> -->
+                        </div>
+                    </div>
+                    <div class="contentVideo">
+                        <video width="550" controls>
+                            <source src="qrcode video.mp4" type="video/mp4">
+                            
+                        </video>
+                    </div>
+
+                    
+                </div>
+                
+
+                <div class="container_videos">
+                    <div class="contentTitleVideo">
+                        <p>Desenvolvi meu gerador de senhas particular, cria, salva e muito mais.</p>
+                        <div class="contentMais">
+                            <button type="button" class="btn btn-dark p-2" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-list"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                
+                                <li><a class="dropdown-item" href="https://github.com/THIAGO1F/Executavel-gerador-de-senhas"><i class="bi bi-github"></i> Link do Projeto</a></li>
+                                <li><a class="dropdown-item" download="" href="citrix video.mp4"><i class="bi bi-arrow-down"></i>Faça download</a></li>
+                            </ul>
+                            <!-- <button><i class="bi bi-list"></i></button> -->
+                        </div>
+                    </div>
+                    <div class="contentVideo">
+                        <video width="550" controls>
+                            <source src="gerador de senha video.mp4" type="video/mp4">
+                            
+                        </video>
+                    </div>
+
+                    
+                </div>
+
+
+                
+                
+
                 <div class="container_videos">
                     <h3>PROJETO BACK-END</h3>
                     <p>Desenvolvi meu gerador de senhas particular, cria, salva e muito mais.</p>
@@ -83,62 +297,335 @@
                     
                     <a href="https://github.com/THIAGO1F/Executavel-gerador-de-senhas">Link do Projeto</a>
                 </div>
-                <div class="container_videos">
-                    <h3>PROJETO BACK-END</h3>
-                    <p>Criei um gerador de Qrcode e Código de Barras.</p>
-                    <video width="550" controls>
-                        <source src="qrcode video.mp4" type="video/mp4">
-                        
-                    </video>
+
+
+            </div>
+
+            <div class="projetos" id="divFullStack" style="display: none;">
+                <div class="contentImgSites site1">
+               
                     
-                    <a href="https://github.com/THIAGO1F/web-scraping">Link do Projeto</a>
+                </div>
+                <div class="contentImgSites site2">
+               
+                    
+                </div>
+                <div class="contentImgSites site3">
+               
+                    
+                </div>
+            </div>
+
+        </section>
+
+        <div class="lines">
+            <div class="pontosLine"></div>
+            <div class="pontosLine"></div>
+            <div class="pontosLine"></div>
+            <div class="line"></div>
+            <div class="pontosLine"></div>
+            <div class="pontosLine"></div>
+            <div class="pontosLine"></div>
+        </div>
+
+        <section class="skils" id="skills">
+            <div class="title">
+                <h2>CONHECIMENTOS</h2>
+
+            </div>
+            <div class="containerSKILS">
+                <div class="conhecimentos">
+                    <div class="contentSkill">
+                        <div class="contentIconsSkill">
+                            <i class="fa-brands fa-python"></i>
+                        </div>
+                        <h4>PYTHON</h4>
+                        <div class="barSkill ">
+                            <div class="lineSkill"></div>
+                            <div class="finishbar  py"><div class="bar"><span></span></div></div>
+                        </div>
+                    </div>
+                    <div class="contentSkill">
+                        <div class="contentIconsSkill">
+                            <img src="img/dj.png" alt="">
+                        </div>
+                        <h4>DJANGO</h4>
+                        <div class="barSkill dj">
+                            <div class="lineSkill"></div>
+                            <div class="finishbar dj"><div class="bar"><span></span></div></div>
+                        </div>
+                    </div>
+                    <div class="contentSkill">
+                        <div class="contentIconsSkill">
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+                        <h4>JAVASCRIPT</h4>
+                        <div class="barSkill js">
+                            <div class="lineSkill"></div>
+                            <div class="finishbar js"><div class="bar"><span></span></div></div>
+                        </div>
+                    </div>
+                    <div class="contentSkill">
+                        <div class="contentIconsSkill">
+                            <i class="bi bi-database-fill"></i>
+                        </div>
+                        <h4>MYSQL</h4>
+                        <div class="barSkill bd">
+                            <div class="lineSkill"></div>
+                            <div class="finishbar bd"><div class="bar"><span></span></div></div>
+                        </div>
+                    </div>
+                    <div class="contentSkill">
+                        
+                        <div class="contentIconsSkill">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                        <h4>HTML</h4>
+                        <div class="barSkill html">
+                            <div class="lineSkill"></div>
+                            <div class="finishbar html"><div class="bar"><span></span></div></div>
+                        </div>
+                    </div>
+                    
+    
+                </div>
+    
+                <div class="conhecimentos">
+                    <div class="contentSkill">
+                        <div class="contentIconsSkill">
+                            <i class="fa-brands fa-css3-alt"></i>
+                        </div>
+                        <h4>CSS</h4>
+                        <div class="barSkill css">
+                            <div class="lineSkill"></div>
+                            <div class="finishbar css"><div class="bar"><span></span></div></div>
+                        </div>
+                    </div>
+                    <div class="contentSkill">
+                        <div class="contentIconsSkill">
+                            <i class="fa-brands fa-bootstrap"></i>
+                        </div>
+                        <h4>BOOTSTRAP</h4>
+                        <div class="barSkill bt">
+                            <div class="lineSkill"></div>
+                            <div class="finishbar bt"><div class="bar"><span></span></div></div>
+                        </div>
+                    </div>
+                    <div class="contentSkill">
+                        <div class="contentIconsSkill">
+                            <i class="fa-brands fa-git-alt"></i>
+                        </div>
+                        <h4>GIT</h4>
+                        <div class="barSkill git">
+                            <div class="lineSkill"></div>
+                            <div class="finishbar git"><div class="bar"><span></span></div></div>
+                        </div>
+                    </div>
+                    <div class="contentSkill">
+                        
+                        <div class="contentIconsSkill">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                        <h4>GITHUB</h4>
+                        <div class="barSkill github">
+                            <div class="lineSkill"></div>
+                            <div class="finishbar github"><div class="bar"><span></span></div></div>
+                        </div>
+                    </div>
+                    <div class="contentSkill">
+                        <div class="contentIconsSkill">
+                            <i class="fa-brands fa-figma"></i>
+                        </div>
+                        <h4>FIGMA</h4>
+                        <div class="barSkill figma">
+                            <div class="lineSkill"></div>
+                            <div class="finishbar figma"><div class="bar"><span></span></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="containerSKILS">
+                
+                <div class="conhecimentos">
+                    <h1>CARREIRAS</h1>
+                    <div class="contentSkill">
+                        
+                        <div class="contentIconsSkill">
+                            <i class="bi bi-hourglass-bottom"></i>
+                        </div>
+                        <h4>FRONT END</h4>
+                        <div class="barSkill github">
+                            <div class="lineSkill"></div>
+                            <div class="finishbar front"><div class="bar"><span></span></div></div>
+                        </div>
+                    </div>
+                    <div class="contentSkill">
+                        <div class="contentIconsSkill">
+                            <i class="bi bi-hourglass-bottom"></i>
+                        </div>
+                        <h4>BACK END</h4>
+                        <div class="barSkill figma">
+                            <div class="lineSkill"></div>
+                            <div class="finishbar back"><div class="bar"><span></span></div></div>
+                        </div>
+                    </div>
+                    <div class="contentSkill">
+                        <div class="contentIconsSkill  iconfull">
+                            <i class="bi bi-search-heart"></i>
+                        </div>
+                        <h4>FULL STACK</h4>
+                        <div class="barSkill figma">
+                            <div class="lineSkill"></div>
+                            <div class="finishbar full"><div class="bar"><span></span></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="lines">
+            <div class="pontosLine"></div>
+            <div class="pontosLine"></div>
+            <div class="pontosLine"></div>
+            <div class="line"></div>
+            <div class="pontosLine"></div>
+            <div class="pontosLine"></div>
+            <div class="pontosLine"></div>
+        </div>
+        <section class="container_contato" id="contato">
+            <div class="title">
+                <h2>VAMOS CONVERSAR?</h2>
+                
+            </div>
+            <div class="contatos">
+                <h3>Que tal me conhecer melho? Falar sobre projetos ou até mesmo uma entrevista? Mande-me uma menssagem.</h3>
+                <form >
+                    <input type="text" name="nome" id="nome" placeholder="Informe seu nome" onclick="menssagem()">
+                    <input type="email" name="email" id="email" placeholder="Informe seu email" onclick="menssagem()">
+                    <input type="text" name="assunto" id="assunto" placeholder="Assunto" onclick="menssagem()">
+                    <textarea name="texto" id="texto" cols="30" rows="5" placeholder="Menssagem" onclick="menssagem()"></textarea>
+                    <!-- <div class="botoes">
+                        <input class="btn" type="submit" value="Enviar" onclick="menssagem()">
+                    </div> -->
+                </form>
+                <div class="botoes">
+                    <input class="btn" type="submit" value="Enviar" onclick="menssagem()">
                 </div>
                 
-            
-            </div>
-            <h2>CONTATOS</h2>
-            <div class="contatos">
-                <a href="https://www.linkedin.com/in/thiago-ferreirapy" target="_blank" title="linedin"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/THIAGO1F" target="_blank" title="Git Hub"><i class="fa-brands fa-github"></i></a>
-                <a href="mailto:tf938383@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
-                <a href="arquivos/curriculo ti.pdf" download="curriculo ti.pdf" title="Download CV"><i class="fa-solid fa-file"></i></a>
                 
-
-            </div>
-            <h2>CONHECIMENTOS</h2>
-            <div class="conhecimentos">
-                <div><i id="html" title="HTML" class="fa-brands fa-html5"></i></div>
-                <div><i id="css" title="CSS" class="fa-brands fa-css3-alt"></i></div>
-                <div><i id="js" title="Java Script" class="fa-brands fa-js"></i></div>
-
-            </div>
-            <div class="conhecimentos">
-                <div><i id="python" title="Python" class="fa-brands fa-python"></i></div>
-                <div><i id="mysql" title="MYSQL" class="fa-solid fa-database"></i></div>
 
             </div>
         </section>
         
         
+        <section class="alert" style="display: none;">
         
-        
+        </section>
     </main>
+    
 </body>
 <script src="https://kit.fontawesome.com/dc37c7fe1c.js" crossorigin="anonymous"></script>
 <script>
-    function verMais(){
-       document.getElementById('container_projetos').style.display = 'flex'
-       document.getElementById('btn_ver_menos').style.display = 'block'
-       document.getElementById('btn_ver_mais').style.display = 'none'
-       document.getElementById('principal').style.height = '90vh'
+    t= document.getElementById('frontEnd').style.backgroundColor = '#80E3C5';
+    
+    window.addEventListener("scroll", function(){
+        t.classList.toglle('scroll', window.scrollY > 2000);
+    })
+    function backEnd(){
+        divFrontEnd = document.querySelector('#divFrontEnd').style.display = 'none';
+        divBackEnd = document.querySelector('#divBackEnd').style.display = 'flex';
+        divFrontEnd = document.querySelector('#divFullStack').style.display = 'none';
         
+       
+        document.getElementById('backEnd').style.backgroundColor = '#80E3C5';
+        document.getElementById('frontEnd').style.backgroundColor = 'transparent';
+        document.getElementById('fullStack').style.backgroundColor = 'transparent';
     }
-    function verMenos(){
-       document.getElementById('container_projetos').style.display = 'none'
-       document.getElementById('btn_ver_menos').style.display = 'none'
-       document.getElementById('btn_ver_mais').style.display = 'block'
-       document.getElementById('principal').style.height = '100vh'
+
+    function frontEnd(){
+        divFrontEnd = document.querySelector('#divFrontEnd').style.display = 'flex';
+        divBackEnd = document.querySelector('#divBackEnd').style.display = 'none';
+        divFrontEnd = document.querySelector('#divFullStack').style.display = 'none';
         
+        document.getElementById('frontEnd').style.backgroundColor = '#80E3C5';
+        document.getElementById('backEnd').style.backgroundColor = 'transparent';
+        document.getElementById('fullStack').style.backgroundColor = 'transparent';
     }
+
+    function fullStack(){
+        divFrontEnd = document.querySelector('#divFullStack').style.display = 'flex';
+        divBackEnd = document.querySelector('#divFrontEnd').style.display = 'none';
+        divBackEnd = document.querySelector('#divBackEnd').style.display = 'none';
+
+        
+        document.getElementById('fullStack').style.backgroundColor = '#80E3C5';
+        document.getElementById('frontEnd').style.backgroundColor = 'transparent';
+        document.getElementById('backEnd').style.backgroundColor = 'transparent';
+    }
+    
+
+
+    function typeWriter(elemento) {
+    const titulo = document.querySelector('#palavras');
+    const textoArray = elemento.split('');
+    titulo.innerHTML = '';
+    textoArray.forEach((letra, i) => {
+      setTimeout(() => titulo.innerHTML += letra, 75 * i);
+    });
+    }
+
+    contador = 0
+    setInterval(() => {
+        if (contador == 0) {
+            typeWriter('THIAGO SILVA FERREIRA');
+            contador ++;
+        }else if(contador == 1) {
+            typeWriter('DESENVOLVEDOR BACK END');
+            contador ++;
+        }else if(contador == 2){
+            typeWriter('DESENVOLVEDOR FRONT END');
+            contador ++;
+        }else if(contador == 3){
+            typeWriter('DESENVOLVEDOR FULL STACK');
+            contador = 0;
+        }
+        
+
+    }, 5000);
+
+
+    // Se estiver tendo problemas com performance, utilize o FOR loop como abaixo no local do forEach
+    // function typeWriter(elemento) {
+    //   const textoArray = elemento.innerHTML.split('');
+    //   elemento.innerHTML = '';
+    //   for(let i = 0; i < textoArray.length; i++) {
+    //     setTimeout(() => elemento.innerHTML += textoArray[i], 75 * i);
+    //   }
+    // }
+
+    // const titulo = document.querySelector('#palavras');
+    // typeWriter(titulo);
+
+
+    function menssagem(){
+    
+
+        const divMenssage = document.querySelector('.alert')
+        const msg = 'Desculpe!Por favor entre em contato atravéis dos links à cima.'
+
+        const message = document.createElement('div');
+        message.classList.add("menssagem");
+        message.innerText = msg;
+
+        divMenssage.appendChild(message);
+        divMenssage.style.display = 'flex';
+        message.style.display = 'flex';
+        setTimeout(()=>{
+            message.style.display = 'none';
+            divMenssage.style.display = 'none';
+        },10000)
+    }
+
 </script>
 </html>
